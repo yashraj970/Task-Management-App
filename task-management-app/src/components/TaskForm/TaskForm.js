@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useDispatch } from "react-redux";
 import styles from "./TaskForm.module.css";
 import { addTask } from "../../store/taskSlice";
+import { notifySuccess } from "../../utilities/toast";
 
 const TaskForm = () => {
   const [title, setTitle] = useState("");
@@ -15,6 +16,7 @@ const TaskForm = () => {
       return;
     }
     dispatch(addTask({ id: Date.now(), title, completed: false }));
+    notifySuccess("Task added successfully");
     setTitle("");
     setError("");
   };
