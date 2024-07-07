@@ -1,0 +1,44 @@
+.container {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.filterButtons {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.filterButtons button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.filterButtons button:hover {
+  background-color: #0056b3;
+}
+
+.filterButtons .active {
+  background-color: #0056b3;
+}
+
+.taskList {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.taskList li {
+  margin-bottom: 10px;
+}
