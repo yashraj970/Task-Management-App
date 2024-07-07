@@ -1,6 +1,6 @@
 import React from "react";
 import { useDispatch } from "react-redux";
-import { deleteTask, toggleTaskStatus } from "../store/taskSlice";
+import { deleteTask, toggleTaskStatus } from "../../store/taskSlice";
 import styles from "./TaskItem.module.css";
 
 const TaskItem = ({ task }) => {
