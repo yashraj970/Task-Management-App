@@ -14,6 +14,10 @@ This is a simple task management app built with React.js and Redux. The app allo
 - **Error Handling**: Error handling for edge cases such as invalid input.
 - **Toast Notifications**: Snackbar notifications for task status changes, task deletion, and form submission using `react-hot-toast`.
 
+## Live Demo
+
+Check out the live project [here](https://task-management-app-woad-three.vercel.app/).
+
 ## Installation
 
 1. Clone the repository:
